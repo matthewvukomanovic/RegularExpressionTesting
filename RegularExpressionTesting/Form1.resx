@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="contentControl.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:meebo="http://www.meebo.com" xml:lang="en" lang="en"&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="content-type" content="text/html;charset=UTF-8" /&gt;
+  &lt;!--Set image file path for sharing sites to pick up--&gt;
+  &lt;link rel="image_src" href="http://imgsrv.gocomics.com/dim/?fh=3259c6a4ad0a4c1ca16525f0670321b0" /&gt;
+  &lt;link href="http://assets.gocomics.com/stylesheets/meebo.css?1293129652" media="screen" rel="stylesheet" type="text/css" /&gt;
+  &lt;!--Set creator name--&gt;
+  &lt;meta name="author" content="Brian Basset" /&gt;
+	&lt;meta name="keywords" content="Comics, editorial cartoons, email comics, comic strips, for kids, pets, dogs, family, boys" /&gt;
+	
+	  &lt;meta name="description" content="Follow the adventures of 10-year-old Red, a boy who dreams of going to space and loves baseball, and his dog Rover, a loyal friend and chaser of squirrels. Whether flying through space, bouncing on the moon, fishing, waiting for Popsicle Pete, or delivering the paper, these two friends do everything together." /&gt;
+		&lt;meta name="description" content="GoComics.com is where you get comics and editorials on the web." /&gt;
+&lt;meta name="title" content="Red and Rover Comic Strip on GoComics.com" /&gt;
+&lt;meta http-equiv="pragma" content="no-cache" /&gt;
+&lt;meta http-equiv="expires" content="-1" /&gt;
+&lt;meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.gocomics.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.gocomics.com" r (n 0 s 0 v 0 l 0))' /&gt;
+&lt;meta name="verify-v1" content="/uraW1wvPnFashnL4Vh60AyvdAxZRqRUIFMQs5KCCxw=" /&gt;
+  &lt;title&gt;    Red and Rover Comic Strip, December 30, 2010
+   on GoComics.com&lt;/title&gt;
+  &lt;link href="http://assets.gocomics.com/stylesheets/gocomics.css?1293129652" media="screen" rel="stylesheet" type="text/css" /&gt;
+
+  &lt;!--[if lte IE 7]&gt;&lt;link href="http://assets.gocomics.com/stylesheets/ie.css?1293129652" media="screen" rel="stylesheet" type="text/css" /&gt;&lt;![endif]--&gt;
+	&lt;!--[if lt IE 7]&gt;
+		&lt;link href="http://assets.gocomics.com/stylesheets/ie6.css?1293129652" media="screen" rel="stylesheet" type="text/css" /&gt;
+		&lt;script src="http://assets.gocomics.com/javascripts/DD_belatedPNG_0.0.7a-min.js?1293129652" type="text/javascript"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			DD_belatedPNG.fix('div.feature, div.popup-frame, div.top, div.bottom, a.favorite, a.favorited, li.fav a, li.favorite a, li.favorited a, li.add a, li.page a');
+		&lt;/script&gt;
+	&lt;![endif]--&gt;
+  
+  &lt;script src="http://assets.gocomics.com/javascripts/assetsv2.js?1293129719" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-273330-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;
+
+
+&lt;script type="text/javascript"&gt;
+    //&lt;![CDATA[
+
+    function get_cookie ( cookie_name )
+    {
+        var results = document.cookie.match ( '(^|;) ?' + cookie_name + '=([^;]*)(;|$)' );
+
+        if ( results )
+            return ( unescape ( results[2] ) );
+        else
+            return null;
+    }
+
+    function tagMembers()
+    {
+        var lc = get_cookie("__utmv");
+        var type = "casual";
+        if ( lc == null || lc.indexOf('level=casual') != -1 || (lc.indexOf('level=free-reg') != -1 &amp;&amp; type == 'genius')  ) {
+            pageTracker._setVar('level='+type);
+        }
+    }
+    tagMembers();
+    //]]&gt;
+&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body class="" &gt;
+	&lt;!-- beginning of meebo toolbar snippet --&gt;
+	&lt;script type="text/javascript"&gt;
+	window.Meebo||function(c){function p(){return["&lt;",i,' onload="var d=',g,";d.getElementsByTagName('head')[0].",
+	j,"(d.",h,"('script')).",k,"='//cim.meebo.com/cim?iv=",a.v,"&amp;",q,"=",c[q],c[l]?
+	"&amp;"+l+"="+c[l]:"",c[e]?"&amp;"+e+"="+c[e]:"","'\"&gt;&lt;/",i,"&gt;"].join("")}var f=window,
+	a=f.Meebo=f.Meebo||function(){(a._=a._||[]).push(arguments)},d=document,i="body",
+	m=d[i],r;if(!m){r=arguments.callee;return setTimeout(function(){r(c)},100)}a.$=
+	{0:+new Date};a.T=function(u){a.$[u]=new Date-a.$[0]};a.v=4;var j="appendChild",
+	h="createElement",k="src",l="lang",q="network",e="domain",n=d[h]("div"),v=n[j](d[h]("m")),
+	b=d[h]("iframe"),g="document",o,s=function(){a.T("load");a("load")};f.addEventListener?
+	f.addEventListener("load",s,false):f.attachEvent("onload",s);n.style.display="none";
+	m.insertBefore(n,m.firstChild).id="meebo";b.frameBorder="0";b.id="meebo-iframe";
+	b.allowTransparency="true";v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=
+	d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{var t=
+	b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write("'+p().replace(/"/g,
+	'\\"')+'");d.close();'}a.T(1)}({network:"gocomics"});
+	Meebo('setDefaultThumbnail',{thumbnail:'http://' + document.location.host + '/images/uclick_gocomics_logo_meebo.png', thumbnailWidth:70, thumbnailHeight:70});
+	//javascript:Meebo('unhide');
+	&lt;/script&gt;
+	&lt;div id="meebo_widget_popular" style="display:none;"&gt;
+	&lt;div id="popular_bg"&gt;
+	&lt;h1&gt;Most Viewed&lt;/h1&gt;
+	&lt;ul class="feature-list"&gt;
+		&lt;li&gt;&lt;a href="/theargylesweater"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/tas_icon60.png?1285720087" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/theargylesweater"&gt;&lt;strong&gt;The Argyle Sweater&lt;br /&gt;&lt;/strong&gt;by Scott Hilburn&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+		
+		&lt;li&gt;&lt;a href="/culdesac"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/cds_icon60.png?1285884485" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/culdesac"&gt;&lt;strong&gt;Cul de Sac&lt;br /&gt;&lt;/strong&gt;by Richard Thompson&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+				
+		&lt;li&gt;&lt;a href="/lio"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/lio_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/lio"&gt;&lt;strong&gt;Lio&lt;br /&gt;&lt;/strong&gt;by Mark Tatulli&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+		
+		&lt;li&gt;&lt;a href="/stonesoup"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/ss_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/stonesoup"&gt;&lt;strong&gt;Stone Soup&lt;br /&gt;&lt;/strong&gt;by Jan Eliot&amp;#39;s&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;	
+		
+		&lt;li&gt;&lt;a href="/poochcafe"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/poc_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/poochcafe"&gt;&lt;strong&gt;Pooch CafÃ©&lt;br /&gt;&lt;/strong&gt;by Paul Gilligan&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a href="/inkpen"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/ink_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/inkpen"&gt;&lt;strong&gt;Ink Pen&lt;br /&gt;&lt;/strong&gt;by Phil Dunlap&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a href="/nonsequitur"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/nq_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/nonsequitur"&gt;&lt;strong&gt;Non Sequitur&lt;br /&gt;&lt;/strong&gt;by Wiley Miller&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+									
+		&lt;li&gt;&lt;a href="/adamathome"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/ad_icon60.png?1285720087" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/adamathome"&gt;&lt;strong&gt;Adam@Home&lt;br /&gt;&lt;/strong&gt;by Brian Basset&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+		
+		&lt;li&gt;&lt;a href="/calvinandhobbs"&gt;&lt;img alt="Calvin and Hobbes" src="http://assets.gocomics.com/images/feature_icons/ch_icon60.png?1284050627" title="Calvin and Hobbes" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/calvinandhobbs"&gt;&lt;strong&gt;Calvin &amp;amp; Hobbes&lt;br /&gt;&lt;/strong&gt;by Bill Watterson&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+				
+		&lt;li&gt;&lt;a href="/doonesbury"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/db_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/doonesbury"&gt;&lt;strong&gt;Doonesbury&lt;br /&gt;&lt;/strong&gt;by Garry Trudeau&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+		
+		&lt;li&gt;&lt;a href="/forbetterorforworse"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/fb_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/forbetterorforworse"&gt;&lt;strong&gt;For Better or For Worse&lt;br /&gt;&lt;/strong&gt;by Lynn Johnston&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a href="/garfield"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/ga_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/garfield"&gt;&lt;strong&gt;Garfield&lt;br /&gt;&lt;/strong&gt;by Jim Davis&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+				
+		&lt;li&gt;&lt;a href="/foxtrot"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/ft_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/foxtrot"&gt;&lt;strong&gt;FoxTrot&lt;br /&gt;&lt;/strong&gt;by Bill Amend&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+				
+		&lt;li&gt;&lt;a href="/ziggy"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/zi_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/stonesoup"&gt;&lt;strong&gt;Ziggy&lt;br /&gt;&lt;/strong&gt;by Tom Wilson&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+		
+		&lt;li&gt;&lt;a href="/pibgorn"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/pib_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/pigborn"&gt;&lt;strong&gt;Pibgorn&lt;br /&gt;&lt;/strong&gt;by Brooke McEldowney&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+		
+		&lt;li class="last"&gt;&lt;a href="/pickles"&gt;&lt;img src="http://assets.gocomics.com/images/feature_icons/wppic_icon60.png?1284050627" /&gt;&lt;/a&gt;&lt;div class="popular_description"&gt;&lt;a href="/pickles"&gt;&lt;strong&gt;Pickles&lt;br /&gt;&lt;/strong&gt;by Brian Crane&lt;/a&gt;&lt;/div&gt;&lt;!-- end of popular description --&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/div&gt;&lt;!-- end of bg color --&gt;
+&lt;/div&gt;&lt;!-- end of meebo widget popular --&gt;
+&lt;script type="text/javascript"&gt;
+Meebo('addButton', {
+    id: "meebo_widget_popular1", 
+    type: "widget", 
+    icon: "http://assets.gocomics.com/images/meebo_widget_top_feature.png",
+    label: "Most Viewed",
+	element: "meebo_widget_popular",
+	width:  320,
+	height: 400
+});
+&lt;/script&gt;
+	&lt;div id="meebo_widget_game" style="display:none;"&gt;
+	&lt;div id="widget_inner"&gt;
+		&lt;div id="jigsaw"&gt;
+			&lt;a href="/jigsaw"&gt;&lt;img src="/images/meebo_widget_jigsaw.jpg" /&gt;&lt;/a&gt;
+		&lt;/div&gt;&lt;!-- end of jigsaw --&gt;
+	&lt;/div&gt;&lt;!-- end div#widget_inner --&gt;
+&lt;/div&gt;&lt;!-- end of meebo_widget_game --&gt;
+&lt;script type="text/javascript"&gt;
+Meebo('addButton', {
+    id: "meebo_widget_jigsaw", 
+    type: "widget", 
+    icon: "/images/meebo_widget_jigsaw_icon.png",
+    label: "Play our Featured Game!", 
+    element: "meebo_widget_game",
+	width: 420,
+    height: 500
+});
+&lt;/script&gt;
+
+	&lt;div id="meebo_widget_signupForm" style="display:none;"&gt;
+	&lt;div id="widget_inner"&gt;
+		&lt;div id="signup"&gt;
+			
+			&lt;a href="/registration/purchase"&gt;&lt;img src="http://assets.gocomics.com/images/meebo_widget_fan.jpg" /&gt;&lt;/a&gt;
+					&lt;/div&gt;&lt;!-- end of signup --&gt;
+	&lt;/div&gt;&lt;!-- end div#signup --&gt;
+&lt;/div&gt;&lt;!-- end of signup newsletter --&gt;
+
+&lt;script type="text/javascript"&gt;
+Meebo('addButton', {
+    id: "meebo_widget_signup", 
+    type: "widget", 
+    icon: "http://assets.gocomics.com/images/favicon.ico",
+    label: "Are you a Comic Fan?", 
+    element: "meebo_widget_signupForm",
+	width: 420,
+    height: 500
+});
+&lt;/script&gt;
+
+	&lt;div id="meebo_widget_help" style="display:none;"&gt;
+	&lt;div id="help_inner"&gt;
+&lt;h1&gt;Woh!  What is this thing?!&lt;/h1&gt;
+&lt;p&gt;This is a social bar from the &lt;a href="/about"&gt;GoComics team&lt;/a&gt; and our friends at &lt;a href="http://www.meebo.com" target="_blank"&gt;Meebo&lt;/a&gt;. It is a cool little feature we&amp;#39;ve added to GoComics to make sharing comic strips, political cartoons and other content, a simple click of the mouse from any page.&lt;/p&gt;
+&lt;p&gt;Try it out â use the buttons to instantly send the next funny comic you read to your Facebook status or your Twitter feed. Weâre adding even more ways to share soon, so check this space often!&lt;/p&gt;
+&lt;p&gt;Still have questions? Email us at &lt;a href="mailto:support@gocomics.com"&gt;support@gocomics.com.&lt;/a&gt;&lt;/p&gt;
+	&lt;/div&gt;&lt;!-- end of widget_inner --&gt;
+&lt;/div&gt;&lt;!-- end of signup widget help --&gt;
+&lt;script type="text/javascript"&gt;
+function delay_widget() {
+	Meebo('addButton', {
+	    id: "meebo_widget_help1", 
+	    type: "widget", 
+	    icon: "http://assets.gocomics.com/images/meebo_widget_help.png",
+	    label: "", 
+	    element: "meebo_widget_help",
+		width: 420,
+	    height: 300
+	});	
+}
+setTimeout(delay_widget, 2000);
+&lt;/script&gt;	
+	&lt;!--show popunder ad and meebo ad for unauthenticated user--&gt;
+	
+	  
+	
+	&lt;!--end popunder--&gt;
+	&lt;div id="wrapper"&gt;
+
+    &lt;div id="header"&gt;
+  &lt;div id="leader_board" class="ad"&gt;
+  
+    &lt;!-- begin ad tag --&gt;
+    &lt;script type="text/javascript"&gt;
+      window.dctile = Number(window.dctile) + 1 || 1;
+      window.ord = Number(window.ord) || Math.floor(Math.random() * 1E10);
+      if(typeof(dcopt) == "undefined"){var dcopt = ";dcopt=ist"} else {var dcopt = ""};
+      var site = "uu.gc.feature_items";
+      var zone = "wpred";
+      var pos = "top";
+      var size = "468x60,728x90";
+ 
+      if (17&gt;dctile) document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/'+site+'/'+zone+''+dcopt+';pos='+pos+';tile='+dctile+';sz='+size+';ord=' + ord + '?"&gt;&lt;\/script&gt;\n');
+    &lt;/script&gt;
+    &lt;!-- end ad tag --&gt;
+  &lt;/div&gt;
+
+
+  &lt;a href="/" id="logo"&gt;&lt;img alt="GoComics" height="90" src="http://assets.gocomics.com/images/uclick_gocomics_logo_stacked.png?1293129652" title="GoComics" width="221" /&gt;&lt;/a&gt; 
+
+  &lt;!--****See shared/_session_nav for Sign in/Sign out*****--&gt;
+
+  &lt;ul id="session_links"&gt;
+      &lt;li&gt;&lt;a href="https://www.gocomics.com/registration/new?ptcal=%2Fredandrover%2F2010%2F12%2F30%2F"&gt;Sign In&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.gocomics.com/registration/new"&gt;Sign up for free&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/help"&gt;Help&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+  &lt;ul id="main-nav"&gt;
+    &lt;li&gt;&lt;a href="/" title="Jump back to GoComics.com."&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/explore/comics" title="Explore all the comic features on GoComics."&gt;Comics&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/explore/editorials" title="Explore all the editorial features on GoComics."&gt;Editorial Cartoons&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="/explore/sherpa" title="Find the best up &amp;amp; coming artists at Comics Sherpa."&gt;Sherpa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/collections/shared" title="Comic Collections that are so hot right now."&gt;Collections&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://blogs.gocomics.com/" title="Yeah, we blog. Who doesn't?"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="last"&gt;&lt;a href="http://www.zazzle.com/gocomics*"&gt;Store&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;form action="/features/search" method="get" accept-charset="utf-8" id="site_search"&gt;
+	&lt;fieldset class=""&gt;
+		&lt;legend&gt;Site Search&lt;/legend&gt;
+                &lt;input id="search_string" name="search_string" onFocus="this.value=''" size="20" type="text" value="Find a Comic" /&gt;
+   
+		&lt;button type="submit"&gt;Search&lt;/button&gt;
+	&lt;/fieldset&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;&lt;!-- end div#header --&gt;
+
+  
+		&lt;div id="content-wrapper"&gt;&lt;div class="container"&gt;
+
+			
+
+			
+			
+  &lt;script src="http://assets.gocomics.com/javascripts/calmcp.js?1293129652" type="text/javascript"&gt;&lt;/script&gt;&lt;script type="text/javascript"&gt;
+  /* &lt;![CDATA[ */
+
+  var calShow = false;
+  var calLoaded = false;
+
+  function toggleCal(){
+    if(calShow) {
+      View.toggle('calDiv');
+      calShow = false;}
+    else {
+      View.toggle('calDiv');
+      calShow = true;
+      if(calLoaded == false) {
+        initCal();
+        calLoaded = true;
+      }
+    }
+  }
+  function initCal() {
+    new Cal({
+      year : 2010,
+      month : 12,
+      day : 30,
+      featureCode: 'wpred',
+      featureID: 130,
+      classCalendarTable : 'calendarTable',
+      classCalendarDate : 'calendarDate',
+      classCalendarDaysOfWeek : 'calendarDaysOfWeek',
+      classCalendarDayNotValid : 'calendarDayNotValid',
+      classCalendarDayValidCurrent: 'calendarDayValidCurrent',
+      classCalendarDayValidNotCurrent: 'calendarDayValidNotCurrent'
+    }
+  );
+  }
+  /* ]]&gt; */
+&lt;/script&gt;
+
+
+  &lt;div class="banner"&gt;&lt;img alt="Redandrover_980x80" src="http://images.gocomics.com/images/gocomics/flare/red-and-rover/redandrover_980x80.jpg" /&gt;&lt;/div&gt;
+
+
+&lt;div id="content"&gt;
+  
+
+  &lt;div id="fi_panel" class="lightbox"&gt;
+  &lt;div class="scrim"&gt;&lt;/div&gt;
+  &lt;div class="form"&gt;
+    &lt;div id="fi_controls"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div class="feature"&gt;
+  &lt;div class="bottom"&gt;&lt;div class="top"&gt;
+
+      &lt;h1 &gt;&lt;a href="/redandrover/2010/12/30/"&gt;Red and Rover&lt;/a&gt;&lt;span&gt; by Brian Basset&lt;/span&gt;&lt;/h1&gt;
+      &lt;ul class="feature-nav"&gt;
+        &lt;li&gt;December 30, 2010&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/redandrover/2003/01/01/" class="beginning"&gt;From Beginning&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="/redandrover/2010/12/29/" class="prev"&gt;Previous feature&lt;/a&gt;&lt;/li&gt;        &lt;li&gt;&lt;a href="#" class="cal" onclick="toggleCal(); return false"&gt;Show Calendar&lt;/a&gt;&lt;div id="calDiv"&gt;&lt;/div&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+
+    &lt;p class="feature_item"&gt;&lt;a href = 'http://imgsrv.gocomics.com/dim/?fh=3259c6a4ad0a4c1ca16525f0670321b0&amp;w=900.0'&gt;
+          &lt;img 
+          src='http://imgsrv.gocomics.com/dim/?fh=3259c6a4ad0a4c1ca16525f0670321b0' 
+          height='185'
+          width='600'
+          alt='Red and Rover'
+          onload="Meebo('makeSharable',{element:this, type:'image', shadow:'none', title:'Red and Rover', url:document.location.href, thumbnail:this.src + '&amp;image.gif', tweet:'Check out Red and Rover on GoComics', description:'Check out Red and Rover on GoComics'})" /&gt;
+        &lt;/a&gt;&lt;!-- end of second case feature_item --&gt; &lt;/p&gt;
+
+    &lt;!--Share/Add to.../More--&gt;
+		&lt;!-- write the script to support the ajax comment --&gt;
+&lt;script type='text/javascript'&gt;var comment564411Load = true;&lt;/script&gt;
+
+&lt;ul class='share-nav'&gt;
+  &lt;li class="first" id="toolHeader_564411_1"&gt;&lt;a href="javascript:void(0)" onclick="toggleTool(564411,1,4,0,false)"&gt;Share&lt;/a&gt;
+    &lt;div class="share-box" id="toolContent_564411_1" style="display: none;"&gt;
+      
+  &lt;form action="signup_submit" method="get" accept-charset="utf-8" class="share-email"&gt;
+  	&lt;h5&gt;Email this to a friend&lt;/h5&gt;
+  	&lt;p&gt;You must be logged in to do this.&lt;/p&gt;
+  	&lt;p&gt;&lt;a href="https://www.gocomics.com/registration/new"&gt;Sign In or Sign Up Free&lt;/a&gt;&lt;/p&gt;
+  &lt;/form&gt;
+
+      &lt;div class="social-box"&gt;
+	&lt;h5&gt;Bookmark And Share&lt;/h5&gt;
+	&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.twitter.com/home/?status=Love+this+Red+and+Rover+strip+on+@GoComics+http://www.gocomics.com/redandrover/2010/12/30/" class="twitter" target="_blank"&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a name="fb_share" type="icon_link" share_url="http://www.gocomics.com/redandrover/2010/12/30/" href="http://www.facebook.com/sharer.php" class="facebook"&gt;Facebook&lt;/a&gt;&lt;script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"&gt;&lt;/script&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.reddit.com/submit?url=http://www.gocomics.com/redandrover/2010/12/30/&amp;title=Red and Rover on Gocomics.com" class="reddit" target="_blank"&gt;reddit&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;form id="myspacepostto" method="post" action="http://www.myspace.com/index.cfm?fuseaction=postto" target="_blank"&gt;
+  &lt;input type="hidden" name="t" value="Red and Rover" /&gt;
+  &lt;input type="hidden" name="c" value="&lt;a href='http://www.gocomics.com/redandrover/2010/12/30/'&gt;&lt;img src='http://imgsrv.gocomics.com/dim/?fh=3259c6a4ad0a4c1ca16525f0670321b0'/&gt;&lt;/a&gt;" /&gt;
+  &lt;input type="hidden" name="u" value="http://www.gocomics.com/redandrover/2010/12/30/"/&gt;
+  &lt;input type="hidden" name="l" value="1" /&gt;
+  &lt;a href="#" onclick="document.getElementById('myspacepostto').submit();return false;" class="myspace"&gt;MySpace!&lt;/a&gt;
+&lt;/form&gt;    
+&lt;/li&gt;
+	&lt;/ul&gt; 
+	&lt;ul&gt;  
+    &lt;li&gt;&lt;a href="http://www.stumbleupon.com/submit?url=http://www.gocomics.com/features/130/feature_items/564411&amp;title=Red and Rover" class="stumbleupon" target="_blank"&gt;StumbleUpon&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://digg.com/submit?url=http://www.gocomics.com/redandrover/2010/12/30/&amp;title=Red and Rover&amp;bodytext=Red and Rover on GoComics.com&amp;media=image&amp;topic=comic_animation" class="digg" target="_blank"&gt;Digg&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://delicious.com/save" onclick="window.open('http://delicious.com/save?v=5&amp;amp;noui&amp;amp;jump=close&amp;amp;url='+encodeURIComponent(location.href)+'&amp;amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;" class="delicious"&gt;Delicious&lt;/a&gt;
+&lt;/li&gt;
+		&lt;!--li&gt;&lt;a class="more" href="#"&gt;MORE&lt;/a&gt;&lt;/li--&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;&lt;!-- end div.social-box --&gt;
+
+      &lt;div class="share-link"&gt;
+  &lt;label for="feature-link"&gt;OR COPY THE LINK : &lt;/label&gt;&lt;input size="50" type="text" value="http://www.gocomics.com/redandrover/2010/12/30/"&gt;
+&lt;/div&gt;      
+
+    &lt;/div&gt;&lt;!-- end div.share-box --&gt;
+  &lt;/li&gt;
+  
+    &lt;li class="second" id="toolHeader_564411_2"&gt;&lt;a href="javascript:void(0)" onclick="toggleTool(564411,2,4,0,false)"&gt;Subscribe Free&lt;/a&gt;
+      &lt;div class="share-box" id="toolContent_564411_2" style="display:none;"&gt;
+        &lt;div class="half-col"&gt;
+          &lt;h4&gt;Want to see this comic everyday? It's Easy&lt;/h4&gt;
+          &lt;p&gt;Register for a FREE GoComics account and get this plus any other comic strip delivered to your Personalized Comic Page, Daily.  With a free account you will be able to build a Comic Page filled with the Comics you want to see each day.  &lt;/p&gt;
+          &lt;p&gt;With the largest collection of Comics and Editorial Cartoons online there is plenty to choose from.  Upgrade to a Comic Genius account (Only $.99/Month) and have unlimited archive access to decades of comics.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="half-col"&gt;
+          &lt;h4&gt;Not registered?&lt;/h4&gt;
+          &lt;a href="https://www.gocomics.com/registration/new" class="btn-big"&gt;Sign Up for Free&lt;/a&gt;
+          &lt;p&gt;&lt;a href="/help/tour"&gt;Take a quick tour to learn more.&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;&lt;!--end div.share-box--&gt;
+    &lt;/li&gt;
+
+  
+    &lt;li class="third" id="toolHeader_564411_3"&gt;&lt;a href="javascript:void(0)" onclick="toggleTool(564411,3,4,0,false)"&gt;Email Me This Daily&lt;/a&gt;
+      &lt;div class="share-box" id="toolContent_564411_3" style="display:none;"&gt;
+        &lt;div class="half-col"&gt;
+          &lt;h4&gt;Want to get this comic everyday? It's Easy&lt;/h4&gt;
+          &lt;p&gt;Register for a FREE GoComics account and get this or any other comic strip daily emailed daily.  Comics and Editorial Cartoons are updated everyday so there is always something new.&lt;/p&gt;
+          &lt;p&gt;With a free account you will receive one comic from your Personalized Comic Page daily. Upgrade to a Comic Genius account (Only $.99/Month) and get all of your comics emailed daily plus receive unlimited archive access to decades of comics.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="half-col"&gt;
+          &lt;h4&gt;Not registered?&lt;/h4&gt;
+          &lt;a href="https://www.gocomics.com/registration/new" class="btn-big"&gt;Sign Up for Free&lt;/a&gt;
+          &lt;p&gt;&lt;a href="/help/tour"&gt;Take a quick tour to learn more.&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;&lt;!-- end div.share-box --&gt;
+    &lt;/li&gt;
+
+  &lt;li class="fourth" id="toolHeader_564411_4"&gt;&lt;a href="javascript:void(0)" onclick="toggleTool(564411,4,4,0,false)"&gt;More&lt;/a&gt;
+    &lt;ul class="dropdown" id="toolContent_564411_4" style="display:none;"&gt;
+      &lt;li class="print"&gt;&lt;a href="/feature_items/printable/564411?feature_id=130"&gt;Print Comic&lt;/a&gt;&lt;/li&gt;
+      
+      &lt;li class="zoom"&gt;&lt;a href = 'http://imgsrv.gocomics.com/dim/?fh=3259c6a4ad0a4c1ca16525f0670321b0&amp;w=900.0'&gt;View Larger&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="rss"&gt;&lt;a href="http://feedproxy.google.com/uclick/redandrover"&gt;Grab the RSS Feed&lt;/a&gt;&lt;/li&gt;
+      
+      
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+  &lt;li class="last" id="favorite_564411"&gt;
+  &lt;a href="javascript:void(0)" class="favorite" onclick="View.toggle('blocked_feature');return false;"&gt;Favorite&lt;/a&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+
+		
+		
+&lt;script type="text/javascript"&gt;
+setupZoom();
+$('wrapper').observe('click', clickOffShareNav);
+
+// set all features to 0 by default, for stacking (in IE, primarily)
+var allFeatures = $$('.feature');
+for (i=0; i &lt; allFeatures.length; i++) {
+	allFeatures[i].setStyle({'zIndex':0});
+}
+
+// set the lowrider listener on the share navs
+var shareNavs = $$('.feature');
+for (i=0; i&lt;shareNavs.length; i++){
+	shareNavs[i].observe('click', lowrider);
+}
+&lt;/script&gt;
+    &lt;div id="comic_564411_flag" class="feature_flag_box"&gt;&lt;/div&gt;
+    
+
+&lt;div class="tag-wrapper" id="tags_564411"&gt;
+
+  &lt;p id='tag_link_564411'&gt;&lt;strong&gt;Tags:&lt;/strong&gt; 
+    
+      
+      &lt;a href="javascript:void(0)" onclick="View.toggle('blocked_feature');return false;"&gt;Be the first to tag this comic!&lt;/a&gt;
+    
+&lt;/p&gt;
+
+&lt;form action="/feature_items/tag_with/564411?feature_id=130" method="post" onsubmit="new Ajax.Request('/feature_items/tag_with/564411?feature_id=130', {asynchronous:true, evalScripts:true, parameters:Form.serialize(this)}); return false;"&gt;
+&lt;div id='tag_form_564411' style="display:none;"&gt;
+  &lt;input id="tags_tags" name="tags" size="30" type="text" value=''/&gt;
+
+  &lt;input name="commit" type="submit" value="Save Tags" /&gt; or &lt;a href="" onclick="View.toggle('tag_link_564411','inline');View.toggle('tag_form_564411');return false;"&gt;cancel&lt;/a&gt;
+  &lt;p class="small"&gt;Separate each tag with a space: &lt;em&gt;caveman lasagna tiger.&lt;/em&gt;
+    &lt;br/&gt;Use double quotes to join two words together in one tag: &lt;em&gt;"Bill Gates"&lt;/em&gt;.
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/div&gt;&lt;!--end tag-wrapper div --&gt;
+
+
+
+  &lt;/div&gt;&lt;/div&gt;&lt;!-- end div.bottom &amp; div.top --&gt;
+&lt;/div&gt;&lt;!-- close .feature --&gt;
+
+
+  
+  &lt;div class="ad"&gt;
+    &lt;!-- begin ad tag --&gt;
+    &lt;script type="text/javascript"&gt;
+      window.dctile = Number(window.dctile) + 1 || 1;
+      window.ord = Number(window.ord) || Math.floor(Math.random() * 1E10);
+      if(typeof(dcopt) == "undefined"){var dcopt = ";dcopt=ist"} else {var dcopt = ""};
+      var site = "uu.gc.feature_items";
+      var zone = "wpred";
+      var pos = "sky";
+      var size = "120x600,160x600";
+
+      if (17&gt;dctile) document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/'+site+'/'+zone+''+dcopt+';pos='+pos+';tile='+dctile+';sz='+size+';ord=' + ord + '?"&gt;&lt;\/script&gt;\n');
+    &lt;/script&gt;
+    &lt;!-- end ad tag --&gt;
+  &lt;/div&gt;
+
+
+  
+    
+      &lt;div class="comments"&gt;
+  &lt;!-- script to support the ajax  --&gt;
+
+
+  &lt;h3&gt;Comments (&lt;span id='comment_count_display'&gt;1&lt;/span&gt;) &lt;/h3&gt;
+
+  &lt;ol id='commentList'&gt;
+          
+        
+
+&lt;li&gt;
+  &lt;a href="/people/126670" class="avatar"&gt;&lt;img alt="comicgos" src="http://s3.amazonaws.com:/avatars.gocomics.com/avatars/24782/Comic_Face_thumb.jpg" title="comicgos" /&gt;&lt;/a&gt;
+  &lt;div&gt;
+    &lt;p class="meta"&gt;&lt;a href="/people/index/126670"&gt;comicgos&lt;/a&gt;
+
+ said,
+
+      &lt;em&gt;about 3 hours ago&lt;/em&gt;
+    &lt;/p&gt;
+
+    &lt;div class="comment-body"&gt;&lt;p&gt;&lt;p&gt;Next panel - a lot of yellow snow!&lt;/p&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- end div.comment-body --&gt;
+
+  &lt;/div&gt;
+&lt;/li&gt;
+      &lt;/ol&gt;
+
+  
+
+  &lt;div class="comment_form"&gt;
+    &lt;div id="comments_564411"&gt; &lt;/div&gt;
+    &lt;a name="comment_form"&gt;&lt;/a&gt;
+    &lt;!-- Comment Form //--&gt;
+          &lt;p class="signin"&gt;You must be &lt;a href="https://www.gocomics.com/registration/new?ptcal=%2Fredandrover%2F2010%2F12%2F30%2F"&gt;signed in&lt;/a&gt; to make a comment.&lt;/p&gt;
+        &lt;!-- /Comment Form //--&gt;
+  &lt;/div&gt;&lt;!-- end div.comment_form --&gt;
+&lt;/div&gt;&lt;!-- end div.comments --&gt;
+    
+  
+&lt;/div&gt;&lt;!-- end div#content --&gt;
+
+&lt;div id="sidebar"&gt;
+  &lt;!--h2&gt;&lt;a href="#"&gt;About Red and Rover&lt;/a&gt;&lt;/h2&gt;
+        &lt;ul class="feature-tabs"&gt;
+    &lt;li class="selected"&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Collections&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Related&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;--&gt;
+
+  
+    
+      &lt;h3&gt;&lt;a href="/features"&gt;Comics A-Z Navigation&lt;/a&gt;&lt;/h3&gt;
+    
+  
+  &lt;ul class="feature-az-nav"&gt;
+	&lt;li class="prev"&gt;&lt;a href="/reallifeadventures" class="prev"&gt;prev&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/reallifeadventures"&gt;&lt;img alt="Real Life Adventures" height="60" src="http://assets.gocomics.com/images/feature_icons/rl_icon60.png?1293129652" title="Real Life Adventures" width="60" /&gt;&lt;strong&gt;Real Life Adventures&lt;/strong&gt; by Gary Wise and Lance Aldrich&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/redmeat"&gt;&lt;img alt="Red Meat" height="60" src="http://assets.gocomics.com/images/feature_icons/red_icon60.png?1293129652" title="Red Meat" width="60" /&gt;&lt;strong&gt;Red Meat&lt;/strong&gt; by Max Cannon&lt;/a&gt;&lt;/li&gt;
+	&lt;li class="next"&gt;&lt;a href="/redmeat" class="next"&gt;next&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+
+  
+
+  &lt;div class="ad"&gt;&lt;!-- &lt;div class="ad"&gt;&lt;/div&gt; --&gt;&lt;/div&gt;
+
+  
+    
+  &lt;div class="ad"&gt;
+    &lt;!-- begin ad tag --&gt;
+    &lt;script type="text/javascript"&gt;
+      window.dctile = Number(window.dctile) + 1 || 1;
+      window.ord = Number(window.ord) || Math.floor(Math.random() * 1E10);
+      if(typeof(dcopt) == "undefined"){var dcopt = ";dcopt=ist"} else {var dcopt = ""};
+      var site = "uu.gc.feature_items";
+      var zone = "wpred";
+      var pos = "rect";
+      var size = "336x280,300x250";
+      if (17&gt;dctile) document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/'+site+'/'+zone+''+dcopt+';pos='+pos+';tile='+dctile+';sz='+size+';ord=' + ord + '?"&gt;&lt;\/script&gt;\n');
+    &lt;/script&gt;
+    &lt;!-- end ad tag --&gt;
+  &lt;/div&gt;
+
+  
+  &lt;div class="hr"&gt;&lt;/div&gt;
+
+  
+	&lt;div id="badge"&gt;
+		&lt;a href="http://astore.amazon.com/ucomicscom/detail/0740741330/" target="_blank"&gt;&lt;img alt="Book_badge" src="http://images.gocomics.com/images/gocomics/flare/red-and-rover/book_badge.png" /&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class="hr"&gt;&lt;/div&gt;
+
+
+  
+
+    
+    
+    
+	&lt;h4&gt;About Red and Rover&lt;/h4&gt;
+	&lt;p&gt;&lt;div id="aboutHeading"&gt;Follow the adventures of 10-year-old Red, a boy who dreams of going to space and loves baseball, and his dog Rover, a loyal friend and chaser of squirrels. &lt;/div&gt;&lt;div class="KonaBody"&gt;&lt;p&gt;Whether flying through space, bouncing on the moon, fishing, waiting for Popsicle Pete, or delivering the paper, these two friends do everything together.&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
+	&lt;div class="hr"&gt;&lt;/div&gt;
+
+    
+
+    &lt;p&gt;&lt;small class="copyright_notice"&gt; &amp;copy; 2010 Brian Basset - All Rights Reserved.&lt;/small&gt;&lt;/p&gt;
+  
+
+
+&lt;/div&gt;&lt;!-- end div#sidebar --&gt;
+ 
+
+			
+
+		&lt;div class="clear"&gt;&lt;/div&gt;
+	&lt;/div&gt;&lt;/div&gt;&lt;!-- end div.container - div#content-wrapper --&gt;		
+&lt;/div&gt;&lt;!-- end div#wrapper --&gt;
+
+&lt;div id="footer-wrapper"&gt;
+  &lt;div id="footer"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;h3&gt;Comic Strips&lt;/h3&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/comics" title="The &amp;amp;#x27;In&amp;amp;#x27; Crowd."&gt;Popular&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/recent_comics" title="The latest and greatest features on GoComics."&gt;New!&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/features" title="All the comics neatly arranged for your perusing pleasure."&gt;A-Z Comic Strip Listing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/espanol" title="&amp;#191;C&amp;#243;mo se dice, 'Hahaha!' en Espa&amp;ntilde;ol?"&gt;Espa&amp;ntilde;ol&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/tags/comics" title="Tagged and categorized by comics lovers like you."&gt;Tags&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;h3&gt;Editorials&lt;/h3&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/editorials" title="Editorialists that are so money, and don&amp;amp;#x27;t even know it!"&gt;Popular&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/recent_editorials" title="Check out the latest editorial cartoon features on GoComics."&gt;New!&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/editorial_lists" title="Editorial greatness from A to Z."&gt;A-Z Editorial Cartoons Listing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/political_slant" title="Politics from every direction."&gt;Political Slant&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/international" title="Editorial views that span the globe."&gt;International&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/explore/pulitzer" title="The best of the best!"&gt;Pulitzer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/tags/editorials" title="All the news that's fit to editorialize."&gt;Tags&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;h3&gt;Explore&lt;/h3&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/collections/shared" title="Comic Collections that are so hot right now."&gt;Comic Collections&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="/explore/app_store" title="Comics for your phone? Yes, please!"&gt;Mobile&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/tags" title="A fine assortment of comics and editorials by subject."&gt;Tags&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://blogs.gocomics.com" title="Yeah, we blog. Who doesn't?"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/features/rsspage" title="RSS Feeds"&gt;RSS Feeds&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;h3&gt;Help&lt;/h3&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/help" title="Need a little direction? Check out our FAQs."&gt;Help &amp;amp; FAQ&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/contact" title="Have your people get with our people."&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/help/tour" title="Learn all about GoComics through comics."&gt;About GoComics&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul class="last"&gt;
+      &lt;li&gt;&lt;h3&gt;Search&lt;/h3&gt;&lt;/li&gt;
+      &lt;li&gt;By Feature, Tag, or Creator
+        &lt;form action="/features/search" method="get" accept-charset="utf-8" id="site_search_footer"&gt;
+          &lt;fieldset class=""&gt;
+            &lt;legend&gt;Site Search&lt;/legend&gt;
+            &lt;input id="search_term_footer" name="search_string" onFocus="this.value=''" size="20" type="text" value="Find a Comic" /&gt;
+            &lt;button type="submit"&gt;Search&lt;/button&gt;
+          &lt;/fieldset&gt;
+      &lt;/form&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class="clear"&gt;&lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;h3&gt;The Uclick Network&lt;/h3&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.uclickgames.com" alt="Play games like Jumble, Pat Sajak's Lucky Letters, &amp;amp; Sudoku" title="Play games like Jumble, Pat Sajak's Lucky Letters, &amp;amp; Sudoku"&gt;UCLICK Games&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.uexpress.com" alt="Read columns from Dear Abby, Ann Coulter, News of the Weird, and more." title="Read columns from Dear Abby, Ann Coulter, News of the Weird, and more."&gt;UExpress&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.dearabby.com" alt="Read the latest from Dear Abby." title="Read the latest from Dear Abby."&gt;Dear Abby&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.upuzzles.com" alt="A massive assortment of sudoku, crosswords, jumbles and more." title="A massive assortment of sudoku, crosswords, jumbles and more."&gt;The Puzzle Society&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.comicssherpa.com" alt="Find the best up &amp;amp; coming comic artists at Comics Sherpa." title="Find the best up &amp;amp; coming comic artists at Comics Sherpa."&gt;Comics Sherpa&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.garfield.com" alt="All things Garfield, all day, every day. Awesome." title="All things Garfield, all day, every day. Awesome."&gt;Garfield.com&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.doonesbury.com" alt="Check out the Doonesbury Town Hall." title="Check out the Doonesbury Town Hall."&gt;Doonesbury.com&lt;/a&gt;&lt;/li&gt;
+	  &lt;li&gt;&lt;a href="http://www.UniversalUclick.com" alt="We foster, distribute, and market talent with the intent of informing and entertaining people around the world." title="Universal Uclick markets and distributes talent to inform and entertain throughout the world."&gt;UniversalUclick.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Copyright &amp;copy; 2010. UCLICK LLC, All rights reserved. &lt;a href="/help/terms"&gt;Terms &amp;amp; Conditions&lt;/a&gt; - &lt;a href="/help/privacy"&gt;Privacy Policy&lt;/a&gt;&lt;/p&gt;
+    &lt;div class="clear"&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;!-- end div#footer --&gt;
+&lt;/div&gt;&lt;!-- end div#footer-wrapper --&gt;
+
+&lt;div class="lightbox" style="display: none;" id="blocked_feature"&gt;
+  &lt;div class="scrim-blocked"&gt;&amp;nbsp;&lt;/div&gt;
+  &lt;div class="popup-frame"&gt;
+    &lt;div class="bottom"&gt;
+      &lt;div class="top"&gt;
+        &lt;p&gt;&lt;a href="javascript:void(0)" class="close" onclick="View.toggle('blocked_feature');return false;"&gt;Close&lt;/a&gt;&lt;/p&gt;
+        
+          &lt;h1&gt;Ooops! This feature is for registered users only.&lt;/h1&gt;
+          &lt;div class="col"&gt;
+            &lt;h2&gt;Not registered?&lt;/h2&gt;
+            &lt;p&gt;&lt;a href="https://www.gocomics.com/registration/new" class="btn-big"&gt;Sign Up for Free&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="/help/tour"&gt;Take a quick tour to learn more.&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;&lt;!-- end div.col --&gt;
+
+          &lt;form action="/sessions" class="login-form" method="post"&gt;          &lt;h2&gt;Sign In to GoComics&lt;/h2&gt;
+          &lt;p&gt;
+            &lt;label for="login"&gt;Username&lt;/label&gt;
+            &lt;input id="login" name="login" type="text" /&gt;
+            &lt;input id="ptcal" name="ptcal" type="hidden" value="/redandrover/2010/12/30/" /&gt;
+            &lt;span&gt;&lt;/span&gt;
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;label for="password"&gt;Password&lt;/label&gt;
+            &lt;input id="password" name="password" type="password" /&gt;
+            &lt;span&gt;&lt;/span&gt;
+          &lt;/p&gt;
+          &lt;p class="indent"&gt;&lt;input class="checkbox" id="remember_me" name="remember_me" type="checkbox" value="1" /&gt; &lt;label for="remember_me"&gt;Remember me&lt;/label&gt;&lt;/p&gt;
+          &lt;p class="indent"&gt;&lt;button type="submit" class="small"&gt;Signin&lt;/button&gt;&lt;/p&gt;
+          &lt;/form&gt;
+        
+        &lt;div class="clear"&gt;&lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style="font-size:smaller; background-color:#efefef;border-top:1px solid #000;padding:0.5em;display:none;"&gt;
+  &lt;ul class="inline_list"&gt;
+    &lt;li style="padding:0;margin:0;"&gt;&lt;strong&gt;Query Statistics:&lt;/strong&gt;&lt;/li&gt;
+    &lt;li style="padding:0;margin:0;"&gt;Queries in Controller:&lt;strong&gt;16&lt;/strong&gt; | &lt;/li&gt;
+    &lt;li style="padding:0;margin:0;"&gt;Queries in View:&lt;strong&gt;14&lt;/strong&gt; | &lt;/li&gt;
+    &lt;li style="padding:0;margin:0;"&gt;Query Time:&lt;strong&gt;0.0653641223907471&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id='progress_throbber' style="display:none;"&gt;
+  &lt;ul class="inline_list"&gt;
+    &lt;li&gt;&lt;img src= '/images/throbber.gif' alt="spinner"/&gt;&lt;/li&gt;
+    &lt;li&gt;Loading ...&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- &lt;div id="conversion_wrapper"&gt;
+	&lt;p&gt;Its a me, Mario!&lt;/p&gt;
+&lt;/div&gt; --&gt;&lt;!-- end div#conversion_wrapper --&gt;
+&lt;!-- Start Quantcast tag --&gt;
+&lt;script type="text/javascript"&gt;
+_qoptions={
+qacct:"p-5bhew76JBcfq6"
+};
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://edge.quantserve.com/quant.js"&gt;&lt;/script&gt;
+&lt;noscript&gt;
+&lt;img src="http://pixel.quantserve.com/pixel/p-5bhew76JBcfq6.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;
+&lt;/noscript&gt;
+&lt;!-- End Quantcast tag --&gt;
+&lt;script type="text/javascript"&gt;
+var LOTCC = LOTCC || { asyncBehaviors: {}, async: true };
+
+
+(function(){
+var lot = document.createElement('script');
+lot.src = 'http://tags.crwdcntrl.net/c/349/cc.js';
+lot.setAttribute('async', 'true');
+document.documentElement.firstChild.appendChild(lot);
+})();
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+    Meebo('domReady');
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

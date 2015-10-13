@@ -1,0 +1,19 @@
+*.suo
+*.swp
+*.bak
+*.vspscc
+*.vssscc
+*.user
+obj/
+bin/
+Assemblies/
+Solution Items/
+*.SCC
+*.scc
+*.vbw
+*.CNT
+out.txt
+.*.swp
+*.exp
+*.lib
+*.pdb
